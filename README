@@ -1,0 +1,7 @@
+http://arduino.esp8266.com/stable/package_esp8266com_index.json,https://espressif.github.io/arduino-esp32/package_esp32_index.json
+
+For more instructions:
+https://docs.espressif.com/projects/arduino-esp32/en/latest/installing.html
+
+UART Driver install link:
+https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers?tab=downloads
