@@ -7,9 +7,9 @@ MAX30105 particleSensor;
 #include <Firebase_ESP_Client.h>
 #include <addons/TokenHelper.h>
 #include <addons/RTDBHelper.h>
-#define WIFI_SSID "Madhura"
-#define WIFI_PASSWORD "87654321"
-#define API_KEY "AIzaSyArjly-5lmYfLFCyOiL0M98KsGqmCpwDmo"
+#define WIFI_SSID "Name of Hotspot"
+#define WIFI_PASSWORD "Password of Hotspot"
+#define API_KEY "AIzaSyArjly-xxxxxxxxxxL0M98KsGqmCpwDmo"
 #define DATABASE_URL "https://dec15-11284-default-rtdb.firebaseio.com/" 
 #define FIREBASE_PROJECT_ID "dec15-11284"
 
@@ -127,3 +127,4 @@ void loop()
   delay(5000);
   
 }
+
