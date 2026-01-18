@@ -10,6 +10,7 @@ void loop() {
   delay(1000);   
 
   Serial.println("LED is OFF");                     
-  digitalWrite(LED_BUILTIN, LOW);   
+  digitalWrite(2, LOW);   
   delay(1000);                      
 }
+
