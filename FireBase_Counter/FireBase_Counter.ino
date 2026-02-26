@@ -63,7 +63,7 @@ void loop()
   if (Firebase.ready() && (millis() - sendDataPrevMillis > 5000 || sendDataPrevMillis == 0)){
   sendDataPrevMillis = millis();
   
-  if(Firebase.RTDB.setInt(&fbdo, "/test/value_i", i)){
+  if(Firebase.RTDB.setInt(&fbdo, "value_i", i)){
     Serial.println("Data saved Succefully");
   }
   else
@@ -75,4 +75,5 @@ void loop()
   delay(5000);
   
 }
+
 
