@@ -14,7 +14,7 @@ unsigned long previousMillis = 0;
 const unsigned long counterInterval = 1000;   // 1 second
 
 unsigned long previousUploadMillis = 0;
-const unsigned long uploadInterval = 15000;   // 15 seconds
+const unsigned long uploadInterval = 5000;   // 5 seconds
 
 
 void setup() {
