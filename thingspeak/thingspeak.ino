@@ -2,11 +2,11 @@
 #include <HTTPClient.h>
 
 
-const char* ssid = "Mahesh";
-const char* password = "87654321";
+const char* ssid = "name of Wi-Fi";
+const char* password = "Password of Wi-fi";
 
 
-const char* apiKey = "I3DGIH2PP0YTIOPD";
+const char* apiKey = "API key";
 
 unsigned long counter = 0;
 
